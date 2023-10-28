@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Store</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar-menu">
+            <li class="nav-item px-2">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                data-category="electronics"
+                >electronics</a
+              >
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#" data-category="jewelery">jewelery</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#" data-category="men's clothing"
+                >men's clothing</a
+              >
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#" data-category="women's clothing"
+                >women's clothing</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="Home">
+      <div class="container py-5">
+        <div class="row rowData g-3">
+        </div>
+      </div>
+    </section>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-fullscreen-xxl-down">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal"aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-5 productImg">
+                  <img src="" class="w-100" alt="productImg">
+                </div>
+                <div class="col-md-6 offset-md-1 text-white">
+                  <h2 class="productTitle"></h2>
+                  <p class="productPrice"></p>
+                  <P class="productDesc"></P>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

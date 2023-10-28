@@ -1,0 +1,25 @@
+body{
+    background-color: #333;
+}
+.home-item img 
+{
+    height: 250px;
+}
+.rate
+{
+    width: 30px;
+    height: 30px;
+}
+.cursor-pointer
+{
+    cursor: pointer;
+}
+.modal-header {
+    border-bottom: none;
+}
+.modal-content {
+    background-color: #333;
+}
+.btn-close {
+    --bs-btn-close-bg:url('../imgs/xmark.png');
+}
